@@ -1,0 +1,492 @@
+COLUMN_NAME,DESCRIPTION
+year,School Year
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T, or A"
+street_ad,Street address
+scity_ad,City name
+state_ad,State
+szip_ad,ZIP code
+vphone_ad,Phone Number
+type_cd,Charter or public school
+closed_ind,"1=School is closed, 0=School is currently open"
+new_ind,"1=School is new this year, 0=School is not new
+*If a school is new this year, no data is available"
+super_nm,Superintendent’s Name
+url_ad,URL Address of the school or district
+grade_range_cd,Range of grades offered
+calendar_type_txt,Description of school calendar and school type
+school_type_txt,Description of school type
+calendar_only_txt,Description of Calendar
+title1_type_cd,Title I Status
+esea_status,ESEA status
+grad_project_status,"Required Graduation Project, Y=Yes or N=No"
+student_num,Number of students at school level (school size)
+lea_avg_student_num,Average school size within the LEA
+st_avg_student_num,Average school size within the State
+welcome_ltr_url,URL for LEA/Charter school welcome letter
+stem,"STEM (Science, Technology, Engineering, Math) status"
+county,County the school is physically located in
+clp_ind,"Consistently Low Performing indicator (used on SRC
+Snapshot Only)"
+focus_clp_ind,"Focus school designation due to CLP status (used on SRC
+Snapshot Only)"
+summer_program_ind,"Summer school program was included in Read to Achieve
+results"
+asm_no_spg_ind,Indicator for no SPG due to alternative school status
+no_data_spg_ind,Indicator for no SPG due to lack of data
+year,School Year
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+level,"Grade Level (K-8) or Course (English II, Math I, Biology)"
+size,Average class/course size for school
+lea_size,Average class/course size for district
+st_size,Average class/course size for State
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+total_expense_num,Total expense (Dollars Spent) at school level
+lea_ total_expense_num,Total expense (Dollars Spent) at LEA level
+st_ total_expense_num,Total expense (Dollars Spent) at state level
+salary_expense_pct,Percent of expense spent on Salaries at school level
+lea_salary_expense_pct,Percent of expense spent on Salaries at LEA level
+st_ salary_expense_pct,Percent of expense spent on Salaries at state level
+benefits_expense_pct,Percent of expense spent on Benefits at school level
+lea_ benefits_expense_pct,Percent of expense spent on Benefits at LEA level
+st_ benefits_expense_pct,Percent of expense spent on Benefits at state level
+services_expense_pct,Percent of expense spent on Services at school level
+lea_ services_expense_pct,Percent of expense spent on Services at LEA level
+st_ services_expense_pct,Percent of expense spent on Services at state level
+supplies_expense_pct,Percent of expense spent on Supplies at school level
+lea_supplies_expense_pct,Percent of expense spent on Supplies at LEA level
+st_supplies_expense_pct,Percent of expense spent on Supplies at state level
+instruct_equip_exp_pct,"Percent of expense spent on Instructional Equipment at school
+level"
+lea_ instruct_equip_exp_pct,"Percent of expense spent on Instructional Equipment at LEA
+level"
+st_ instruct_equip_exp_pct,"Percent of expense spent on Instructional Equipment at state
+level"
+other_expense_pct,Percent of expense spent on Other Expenses at school level
+lea_ other_expense_pct,Percent of expense spent on Other Expenses at LEA level
+st_ other_expense_pct,Percent of expense spent on Other Expenses at state level
+lea_ building_expense_pct,For future use (not available for 2013-14)
+st_ building_expense_pct,For future use (not available for 2013-14)
+federal_perpupil_num,Federal expense per pupil at school level
+lea_ federal_perpupil_num,Federal expense per pupil at LEA level
+st_ federal_perpupil_num,Federal expense per pupil at state level
+local_perpupil_num,Local expense per pupil at school level
+lea_ local_perpupil_num,Local expense per pupil at LEA level
+st_ local_perpupil_num,Local expense per pupil at state level
+state_perpupil_num,State expense per pupil at school level
+lea_ state_perpupil_num,State expense per pupil at LEA level
+st_ state_perpupil_num,State expense per pupil at state level
+year,School Year
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+passed_bog_and_or_eog,"Students who passed 3rd grade BOG/EOG. Valid values are
+yes or no"
+exemption,"LEP, EC, Already Retained, Passed RTA Test, Portfolio, etc."
+outcome,"Promoted 4th grade, Retained reading, or retained (3rd grade)"
+num_students,Number of students (by outcome) at school level
+lea_num_students,Number of students (by outcome) at LEA level
+st_num_students,Number of students (by outcome) at state level
+pct_students,Percentage of students (by outcome) at school level
+lea_pct_students,Percentage of students (by outcome) at LEA level
+st_pct_students,Percentage of students (by outcome) at state level
+year,School Year
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T, or A"
+sat_avg_score_num,"Average SAT Score (Critical Reading plus Math) at the School
+Level"
+lea_ sat_avg_score_num,Average SAT Score (Critical Reading + Math) at the LEA Level
+st_ sat_avg_score_num,Average SAT Score (Critical Reading + Math) at the State Level
+nat_ sat_avg_score_num,"Average SAT Score (Critical Reading + Math) at the National
+Level"
+sat_participation_pct,"Percentage of High School Seniors taking the SAT at the School
+Level"
+lea_ sat_participation_pct,"Percentage of High School Seniors taking the SAT at the LEA
+Level"
+st_ sat_participation_pct,"Percentage of High School Seniors taking the SAT at the State
+Level"
+nat_ sat_participation_pct,"Percentage of High School Seniors taking the SAT at the
+National Level"
+esea_attendance,"Valid values: met, did not meet"
+lea_esea_attendance,"Valid values: met, did not meet"
+ap_participation_pct,"Percentage of High School Students taking an AP exam at the
+School Level"
+lea_ ap_participation_pct,"Percentage of High School Students taking an AP exam at the
+LEA Level"
+st_ ap_participation_pct,"Percentage of High School Students taking an AP exam at the
+State Level"
+ap_pct_3_or_above,"Percentage of
+School LevelAP Exams with Scores of 3 or Above at the"
+lea_ ap_pct_3_or_above,"Percentage of
+LevelAP Exams with Scores of 3 or Above at the LEA"
+st_ ap_pct_3_or_above,"Percentage of
+LevelAP Exams with Scores of 3 or Above at the State"
+ib_participation_pct,"Percentage of High School Students taking an IB Exam at the
+School Level"
+lea_ ib_participation_pct,"Percentage of High School Students taking an IB Exam at the
+LEA Level"
+st_ ib_participation_pct,"Percentage of High School Students taking an IB Exam at the
+State Level"
+ib_pct_4_or_above,Percentage ofIB Exams with Scores of 4 or Above at the School
+,Level
+lea_ ib_pct_4_or_above,Percentage ofIB Exams with Scores of 4 or Above at the LEA
+,Level
+st_ ib_pct_4_or_above,Percentage ofIB Exams with Scores of 4 or Above at the State
+,Level
+year,School Year
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+course_name_standard,One row per school per course
+year,School Year
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+total_specialized_courses,"Percent of students enrolled in at least one specialized course
+(CTE, AP/IB, Community College or University academic
+course) at the school level"
+lea_ total_specialized_courses,"Percent of students enrolled in at least one specialized course
+(CTE, AP/IB, Community College or University academic
+course) at the LEA level"
+st_ total_specialized_courses,"Percent of students enrolled in at least one specialized course
+(CTE, AP/IB, Community College or University academic
+course) at the state level"
+ap_ib_courses,"Percent of students enrolled in at least on Advanced
+Placement (AP) or International Baccalaureate (IB) at the
+school level"
+lea_ ap_ib_courses,"Percent of students enrolled in at least on Advanced
+Placement (AP) or International Baccalaureate (IB) at the
+LEA level"
+st_ ap_ib_courses,Percent of students enrolled in at least on Advanced Placement (AP) or International Baccalaureate (IB) at the state level
+,"
+state level"
+cte_courses,"Percent of students enrolled in at least one Career and
+Technical Education (CTE) course at the school level"
+lea_cte_courses,"Percent of students enrolled in at least one Career and
+Technical Education (CTE) course at the LEA level"
+st_cte_courses,"Percent of students enrolled in at least one Career and
+Technical Education (CTE) course at the state level"
+univ_college_courses,"Percent of students enrolled in at least one academic course at
+a community college or university at the school level"
+lea_univ_college_courses,"Percent of students enrolled in at least one academic course at
+a community college or university at the LEA level"
+st_univ_college_courses,"Percent of students enrolled in at least one academic course at
+a community college or university at the state level"
+college enrollment,
+column name,DESCRIPTION
+graduation_year,Year students graduated from high school
+unit_code,Code to identifySchool/LEA/State
+leaname,LEA Name
+schname,School Name
+status,The postsecondary enrollment action as defined in the US
+,Department of Education C160 EDEN (Education Data
+,Exchange Network) specification. ENROLL: Enrolled in an
+,IHE within 16 months of receiving a regular high school
+,diploma. NOENROLL: Did not enroll in an IHE within 16
+,months of receiving a regular high school diploma
+subgroup,"A subset of the total student population that shares a common
+characteristic, like sex or race. (See Code Definitions section
+for complete list of subgroups.)"
+subgroup_name,Full description of the subgroup.
+schcount,"Count of students by subgroup and status (ENROLL,
+NOENROLL) within a school with masking applied."
+leacount,"Count of students by subgroup and status (ENROLL,
+NOENROLL) within a LEA/Charter with masking applied."
+seacount,"Count of students by subgroup and status (ENROLL,
+NOENROLL) within the State (SEA)."
+sch_percent_enrolled,"The percentage of enrolled students among total students
+(ENROLL Count / TOTAL Count) within a school with
+masking applied."
+lea_percent_enrolled,"The percentage of enrolled students among total students
+(ENROLL Count / TOTAL Count) within a LEA/Charter
+with masking applied."
+sea_percent_enrolled,The percentage of enrolled students among total students
+graduationyear,Year students graduated from high school
+unitcode,Code to identifySchool/LEA/State
+leaname,LEA Name
+schname,School Name
+status,The postsecondary credits earned as defined in the US Department of Education C161 EDEN (Education DataExchange Network) specification. COMP1Y: Completed at least one year’s worth of credit (applicable to a degree) within two years of enrollment in the IHE. NOCOMP1Y: Did notcomplete at least one year’s worth of credit (applicable to a degree) within two years of enrollment in the IHE.
+subgroup,"A subset of the total student population that shares a common
+characteristic, like sex or race. (See Code Definitions section
+for complete list of subgroups.)"
+subgroupname,Full description of the subgroup.
+schoolcount,"Count of students by subgroup and status (COMP1Y,
+NOCOMP1Y) within a school with masking applied."
+leacount,"Count of students by subgroup and status (COMP1Y,
+NOCOMP1Y) within a LEA/Charter with masking applied."
+seacount,"Count of students by subgroup and status (COMP1Y,
+NOCOMP1Y) within the State (SEA)."
+schoolpercentcomplete,"The percentage of enrolled students that completed 1 full
+year’s worth of credit among total enrolled students
+(COMP1Y count / NOCOMP1Y count) within a school with
+masking applied."
+leapercentcomplete,"The percentage of enrolled students that completed 1 full
+year’s worth of credit among total enrolled students
+(COMP1Y count / NOCOMP1Y count) within a LEA/Charter
+with masking applied."
+seapercentcomplete,"The percentage of enrolled students that completed 1 full
+year’s worth of credit among total enrolled students
+(COMP1Y count / NOCOMP1Y count) within the State
+(SEA)."
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+avg_daily_attend_pct,Average daily attendance percentage at school level
+lea_ avg_daily_attend_pct,Average daily attendance percentage at LEA level
+st_ avg_daily_attend_pct,Average daily attendance percentage at State level
+crime_per_c_num,"Number of crimes or acts of violence per 100 students at School
+level"
+lea_ crime_per_c_num,"Number of crimes or acts of violence per 100 students at LEA
+level"
+st_ crime_per_c_num,"Number of crimes or acts of violence per 100 students at State
+level"
+short_susp_per_c_num,Short term suspensions per 100 students at school level
+lea_ short_susp_per_c_num,Short term suspensions per 100 students at LEA level
+st_ short_susp_per_c_num,Short term suspensions per 100 students at State Level
+long_susp_per_c_num,Long term suspensions per 100 students at School Level
+lea_ long_susp_per_c_num,Long term suspensions per 100 students at LEA Level
+st_ long_susp_per_c_num,Long term suspensions per 100 students at State Level
+expelled_per_c_num,Expulsions per 100 students at School Level
+lea_ expelled_per_c_num,Expulsions per 100 students at LEA Level
+st_ expelled_per_c_num,Expulsions per 100 students at State Level
+ttl_crimes_num,Total number of crimes
+stud_internet_comp_num,Ratio of students to internet connected computer at school level
+lea_stud_internet_comp_num,Ratio of students to internet connected computer at LEA level
+st_ stud_internet_comp_num,Ratio of students to internet connected computer at state level
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T, or A"
+prin_advance_dgr_pct,Percent of principals with advanced degrees at LEA level
+st_ prin_advance_dgr_pct,Percent of principals with advanced degrees at state
+_1yr_prin_trnovr_pct,One year principal turnover rate at LEA level
+st_1yr_prin_trnovr_pct,One year principal turnover rate at state level
+prin_male_pct,Percent of male principals at LEA level
+st_ prin_male_pct,Percent of male principals at state level
+prin_female_pct,Percent of female principals at LEA level
+st_prin_female_pct,Percent of female principals at state level
+prin_black_pct,Percent of black principals at LEA level
+st_ prin_black_pct,Percent of black principals at state level
+prin_white_pct,Percent of white principals at LEA level
+st_ prin_white_pct,Percent of white principals at state level
+prin_other_pct,"Percent of principals of other races including Indian, Asian,
+Hispanic and Pacific-islander at LEA level"
+st_ prin_other_pct,"Percent of principals of other races including
+Indian,Asian,Hispanic and Pacific-islander at state level"
+flicensed_teach_pct,"Percent of teachers that meet NC fully licensed definition at
+school level"
+lea_ flicensed_teach_pct,"Average Percent of Teachers that meet NC fully licensed
+definition at LEA level"
+st_ flicensed_teach_pct,"Average Percent of Teachers that meet NC fully licensed
+definition at state level"
+class_teach_num,Average number of classroom teachers at School Level
+lea_class_teach_num,Average number of classroom teachers at LEA Level
+st_class_teach_num,Average number of classroom teachers at State Level
+nbpts_num,Number of National Board Certified Staff at school level
+lea_ nbpts_num,"Average number of National Board Certified staff at LEA
+level"
+st_ nbpts_num,"Average number of National Board Certified staff at state
+level"
+advance_dgr_pct,"Percent of teachers with masters or higher degree at school
+level"
+lea_ advance_dgr_pct,"Average percent of teachers with masters or higher degree at
+LEA level"
+st_ advance_dgr_pct,"Average percent of teachers with masters or higher degree at
+state level"
+_1yr_tchr_trnovr_pct,One Year Teacher turnover percentage at school level
+lea_1yr_tchr_trnovr_pct,One Year Teacher turnover percentage at LEA level
+st_1yr_tchr_trnovr_pct,One Year Teacher turnover percentage at state level
+lateral_teach_pct,lateral entry teacher percentage at school level
+lea_lateral_teach_pct,Average lateral entry teacher percentage at LEA level
+st_lateral_teach_pct,Average lateral entry teacher percentage at state level
+highqual_class_pct,Percent of highly qualified classes at school level
+lea_highqual_class_pct,Average highly qualified classes at LEA level
+st_highqual_class_pct,Average highly qualified classes at state level
+lea_highqual_class_hp_pct,"Percent of classes taught by highly qualified teachers in high
+poverty schools at LEA level"
+st_ highqual_class_hp_pct,"Percent of classes taught by highly qualified teachers in high
+poverty schools at state level"
+lea_highqual_class_lp_pct,"Percent of classes taught by highly qualified teachers in low
+poverty schools at LEA level"
+st_ highqual_class_lp_pct,Percent of classes taught by highly qualified teachers in low poverty schools at state level
+lea_highqual_class_all_pct,"Percent of classes taught by highly qualified teachers in all
+schools at LEA level"
+st_ highqual_class_all_pct,"Percent of classes taught by highly qualified teachers in all
+schools at state level"
+lea_not_highqual_class_hp_pct,"Percent of classes taught by not highly qualified teachers in
+high poverty schools at LEA level"
+st_ not_highqual_class_hp_pct,"Percent of classes taught by not highly qualified teachers in
+high poverty schools at LEA level"
+lea_not_highqual_class_lp_pct,"Percent of classes taught by not highly qualified teachers in
+low poverty schools at LEA level"
+st_not_highqual_class_lp_pct,"Percent of classes taught by not highly qualified teachers in
+low poverty schools at state level"
+lea_not_highqual_class_all_pct,"Percent of classes taught by not highly qualified teachers in
+all schools at LEA level"
+st_ not_highqual_class_all_pct,"Percent of classes taught by
+all schools at state levelnot highly qualified teachers in"
+total_class_tch_num,Number of classroom teachers
+total_nbpts_num,Number of National Board Certified teachers
+year,School Year
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+experience,"Values = 0-3 years, 4-10 years, 10+ years"
+pct_tch,"Percentage of teachers at a given experience level at the
+school level"
+lea_pct_teach,"Percentage of teachers at a given experience level at the
+district level"
+st_pct_teach,"Percentage of teachers at a given experience level at the state
+level"
+lea_pct_prin,"Percentage of principals at a given experience level at the
+district level"
+st_pct_prin,"Percentage of principals at a given experience level at the
+state level"
+unit_code,Code to identifySchool/LEA/State
+school_name,School Name
+lea_name,LEA Name
+state_name,State Name
+category_cd,"Category code E, M, H, I, T or A"
+standard,"Professional standards outline the skills, knowledge, and
+behaviors that should be displayed by teachers and principals.
+Valid values are 1, 2, 3, 4, 5, 6, 7, or 8"
+level,"Not Demonstrated, Developing, Proficient, Accomplished,
+Distinguished, Does Not Meet Expected Growth, Meets
+Expected Growth, Exceeds Expected Growth"
+count,"Number of teachers/principals at a given level for a given
+standard"
+percent,"Percentage of teachers/principals at a given level for a given
+standard"
+role,"“TCHR” = teacher evaluation results; “PRIN” = principal
+evaluation results"
+unit_code,Code to identifystate/nation
+state_name,
+grade,Valid values are 4 and 8
+subject,Valid values are reading and math
+proficiency_level,"Valid values are below basic, basic, proficient, advanced"
+subgroup,"Valid values are male, female, white, black, Hispanic, Asian,
+ED, not ED, LEP, SWD"
+pct_proficient,"Percentage of test takers at a given proficiency level for a
+given grade and subject"
+average_score,
+participation_rate,Will only be populated for SWD and ELL subgroups
+year,description
+2014,2013-14 School Year
+2013,2012-13 School Year
+2012,2011-12 School Year
+2011,2010-11 School Year
+2010,2009-10 School Year
+2009,2008-09 School Year
+2008,2007-08 School Year
+2007,2006-07 School Year
+2006,2005-06 School Year
+2005,2004-05 School Year
+2004,2003-04 School Year
+2003,2002-03 School Year
+2002,2001-02 School Year
+ccr,College and Career Ready (PC Indicator)
+glp,Grade Level Proficiency (PC Indicator)
+subject,description
+rd,EOG Reading
+ma,EOG Math
+sc,EOG Science
+m1,EOC Math I
+e2,EOC English II
+bi,EOC Biology
+eoc,EOC Composite
+eog,EOG Composite
+all,All EOG/EOC Subjects
+actrd,ACT Reading Subtest
+actma,ACT Math Subtest
+actsc,ACT Science Subtest
+acten,ACT English Subtest
+actwr,ACT Writing Subtest
+actall,ACT All Subtest Composite
+actco,ACT Met UNC Minimum 17 Composite
+wk,ACT WorkKeys
+mcr,Math Course Rigor
+cgr,Cohort Graduation Rate
+grade,description
+3,Grade 3
+4,Grade 4
+5,Grade 5
+6,Grade 6
+7,Grade 7
+8,Grade 8
+gs,Grade School (3-8)
+hs,High School
+all,All Grades
+eoc,All Grades of students taking EOC tests
+subgroup,description
+eds,Economically Disadvantaged
+not_eds,Not Economically Disadvantaged
+lep,Limited English Proficiency
+swd,Students With Disabilities
+whte,White
+blck,Black
+hisp,Hispanic
+amin,American Indian
+asia,Asian
+mult,Two or More Races
+male,Male
+fem,Female
+all,All Students
+aig,Academically/Intellectually Gifted
+paci,Pacific Islander
+masking,description
+0,None
+1,>95%
+2,<5%
+3,<5
+4,Insufficient Data
+growth_status,description
+met,Does Not Meet Expected Growth
+notmet,Meets Expected Growth
+exceeds,Exceeds Expected Growth
+category_cd,description
+e,School has elementary schools grades (PK-5)
+m,School has middle schools grades (6-8)
+h,School has high schools grades (9-13)
+i,School has elementary and middle school grades
+t,School has middle and high school grades
+a,"School has elementary, middle, and high school grades"
+lea_type_cd,description
+c,Charter
+o,Other
+p,Public
+read to achieve metrics,Description
+gce_all,Number and Percentage of Third Grade Students Passed with Good Cause Exemption
+gce_lep,Number and Percentage of Third Grade Students Passed with Good Cause Exemption Limited English Proficiency
+gce_prm,Number and Percentage of Third Grade Students Passed with Good Cause Exemption Previously Retained
+gce_rpf,Number and Percentage of Third Grade Students Passed with Good Cause Exemption Proficient through a Reading Portfolio
+gce_swd,Number and Percentage of Third Grade Students Passed with Good Cause Exemption Students with Disabilities
+passed_eog,Number and Percentage of Third Grade Students Passed BOG3 and/or Grade 3 Reading EOG
+passed_laa,Number and Percentage of Third Grade Students Passed Local Alternative Assessment
+passed_rta,Number and Percentage of Third Grade Students Passed State Read to Achieve Assessment
+"promoted
+grade",Number and Percentage of Third Grade Students Promoted to Fourth
+retained,Number and Percentage of Third Grade Students Retained in Third Grade
