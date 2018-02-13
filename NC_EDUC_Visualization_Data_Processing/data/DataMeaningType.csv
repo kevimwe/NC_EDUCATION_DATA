@@ -292,3 +292,9 @@ Percent Level 4,Percent at level 4,float64
 Percent Level 5,Percent at level 5,float64
 Percent CCR,Percent CCR,float64
 Percent GLP,Percent GLP,float64
+A,"School has elementary, middle, and high school grades",Object
+E,School has elementary schools grades (PK-5),Object
+H,School has high schools grades (9-13),Object
+I,"Schools with elementary, middle and high school grades",Object
+M,School has middle schools grades (6-8),Object
+T,School has middle and high school grades,Object
