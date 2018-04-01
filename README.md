@@ -32,6 +32,6 @@ For both cases our team hopes to measure the accuracy and performance of our mod
 
 Repository: 
 
-**** Link to be updated ****
+https://github.com/kevimwe/NC_EDUCATION_DATA/blob/master/CLASSIFICATION/NC_Education_Data_classification_and_Regression_Final.ipynb
 
 #### 3. Clustering
