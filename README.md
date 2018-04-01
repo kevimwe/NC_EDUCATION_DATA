@@ -14,3 +14,17 @@ For this project we'll be using the North Carolina Schools education data set. T
 Our starting datasets [All_Data_By_School_Final] and [1516_Test_Scores] were taken from Dr. Drews GitHub https://github.com/jakemdrew/EducationDataNC where he combines multiple datasets from North Carolina Schools education data, preprocesses them and cleans them for Machine learning.
 
 ### Repository Organization
+##### 1. *EDA/Visualization* 
+
+In this repositiory, initial data exploration and preprocessing is performed. Features with missing data are either dropped or logically computed based on the data type. New features are also created and explored based on the data.
+>>https://github.com/kevimwe/NC_EDUCATION_DATA/blob/master/NC_EDUC_Visualization_Data_Processing/NC_Graduation_Rates_Project_Combined_Notebook_Final.ipynb
+
+##### 2. *Classification*
+
+To gauge the health of the education system in the state of North Carolina, our team is going to focus on building models to classify the four-year graduation rate Graduation_Rate4_Yr on High school data.
+
+Our team will build classification models to classify schools based on graduation rate of High Schools. We will begin by creating a categorical feature "Above_Avg_Graduation_Rate4_Yr" based Graduation_Rate4_Yr. "Above_Avg_Graduation_Rate4_Yr" is a binary feature binning schools as 1 if their Graduation_Rate4_Yr is above North Carolina (NC) four-year average High school graduation rate (85.4%) per http://www.dpi.state.nc.us/newsroom/news/2015-16/20150902-01 or 0 if the school’s Graduation_Rate4_Yr is below the NC State Average graduation rate. We will look at ROC curves, AUC, confusion matrix to see how well our classifiers fit our data perform.
+
+For both cases our team hopes to measure the accuracy and performance of our models by leveraging Stratified 10-Fold Cross Validation which will be discussed in detail in our results section of this report.
+
+##### 3. *Clustering*
