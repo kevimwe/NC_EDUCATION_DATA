@@ -20,7 +20,7 @@ In this repositiory, initial data exploration and preprocessing is performed. Fe
 
 ***Repository:*** 
 
-https://github.com/kevimwe/NC_EDUCATION_DATA/blob/master/NC_EDUC_Visualization_Data_Processing/NC_Graduation_Rates_Project_Combined_Notebook_Final.ipynb
+https://github.com/kevimwe/NC_EDUCATION_DATA/blob/master/EXPLORATORY%20DATA%20ANALYSIS/NC_Graduation_Rates_Project_Combined_Notebook_Final.ipynb
 
 #### 2. Classification
 
@@ -36,4 +36,10 @@ https://github.com/kevimwe/NC_EDUCATION_DATA/blob/master/CLASSIFICATION/NC_Educa
 
 #### 3. Clustering
 
-**** To be updated *****
+In an attempt to gain insights into which schools can be expected to attain a four-year graduation rate above or below the state average, we will incorporate clustering algorithms in the following report. Our goal is to determine if it is possible to correctly label high schools in North Carolina as either achieving above average graduation rates or below average graduation rates using information provided by the state. To test the validity of our results, we will compare the clustering results of our algorithm with the actual graduation rate data of each school. If we can predict the correct designation with a high degree of accuracy then we have achieved the goal of this analysis.
+
+Please refer to attached report for a detailed report and analysis
+
+
+Repository:
+https://github.com/kevimwe/NC_EDUCATION_DATA/blob/master/CLUSTERING/NC_Education_Data_Clustering.ipynb
